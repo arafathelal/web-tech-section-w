@@ -40,3 +40,5 @@ button{
     width: 90%;
   }
 } */
+input[type='radio']:checked{color: rgb(20, 20, 109);}
+button:hover{background-color: cadetblue;}
