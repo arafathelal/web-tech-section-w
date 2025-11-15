@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission</title>
+</head>
+<body>
+    <h2>University Admission Form</h2>
+    <form action="">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="name">Enter full name</label><br>
+            <input type="text" id="name" name="name" maxlength="70" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" required><br>
+            <label for="dob">Date of birth</label><br>
+            <input type="date" name="dob" id="dob" required><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id="male" required value="male">Male
+            <input type="radio" name="gender" id="female" required value="female">Female <br>
+        
+        </fieldset>
+        <fieldset>
+            <legend>Academic Info</legend>
+            <label for="degree">Choose your preferred study level</label><br>
+            <input type="radio" name="degree" id="bsc" value="bsc" required>BSc
+            <input type="radio" name="degree" id="msc" value="msc">MSc
+            <input type="radio" name="degree" id="BBA" value="bba">BBA <br>
+            <label for="interests">Select your interests</label><br>
+            <input type="checkbox" name="interests" id="ai" value="ai">Artificial Intelligence
+            <input type="checkbox" name="interests" id="ML" value="ml">Machine Learniong
+            <input type="checkbox" name="interests" id="marketing" value="marketing">marketing
+            <input type="checkbox" name="interests" id="accounting" value="accounting">Accounting <br>
+            <select name="courses" id="courses">
+                <option value="">Course Selection</option>
+                <option value="cse">BSc in CSE</option>
+                <option value="eee">BSc in EEE</option>
+                <option value="ipe">BSc in IPE</option>
+                <option value="bba">BBA in Marketing</option>
+            </select><br>
+            <label for="transcripts">Upload your transcripts</label>
+            <input type="file" name="transcripts" id="transcripts" required>            
+        </fieldset>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
