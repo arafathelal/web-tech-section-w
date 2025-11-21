@@ -1,0 +1,36 @@
+
+/* Hides the text if it exeeds beyond the size of the container */
+
+/* div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+} */
+
+/* The text is visible beyond the container */
+
+/* div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: visible;
+} */
+
+/* Scroll bar is visible both vertical and horizontal*/
+
+div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+/* Only vertical scrollbar is visible as the text is wrapped around the horizon */
+
+/* div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: auto;
+} */
