@@ -1,0 +1,11 @@
+.widget{
+    border: 1px solid black;
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+.widget:hover{
+    background-color: blanchedalmond;
+}
